@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lista-de-productos';
+  
+  showList = false;
+  
+
+  toggleList() {
+    this.showList = !this.showList;
+  } 
+
 }

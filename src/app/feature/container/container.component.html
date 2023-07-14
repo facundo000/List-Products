@@ -1,0 +1,7 @@
+<section>
+    <ul *ngFor="let product of productList">
+        <li ><span> Name:</span> {{ product.title }}</li>
+        <li> <span>Price:</span> ${{ product.price }} </li>
+        <img [src]="product.images" alt="product.images" >
+    </ul>
+</section>    

@@ -1,0 +1,27 @@
+section {
+    display: grid;
+    justify-content: center;
+
+    ul {
+        text-align: start;
+    
+        li {
+            list-style: none;
+                span {
+                    font-weight: bold;
+                    color: #4758B8;
+                }
+            }
+
+        img {
+            height: 121px;
+            width: 166px;
+            border-radius: 5%;
+        }
+    }
+}
+
+
+
+
+
